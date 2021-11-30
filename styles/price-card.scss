@@ -1,6 +1,9 @@
 .price-product {
   display: flex;
-  padding: 70px 132px; // 115px 132px
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+  min-height: 100vh;
   background-color: #141b1c;
 }
 
@@ -23,14 +26,6 @@
     height: 64px;
     margin: 0 auto;
     padding: 33px 0;
-
-    // &-green {
-    //   width: 100px;
-    // }
-
-    // &-blue {
-    //   width: 163px;
-    // }
   }
 
   &__title {
